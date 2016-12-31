@@ -1,0 +1,42 @@
+{
+  "varGroups": [
+    {
+      "ID": "HTTP",
+      "varGroup": [
+        {
+          "ID": "VARCUSTOMERNAME",
+          "value": "",
+          "assign": "data.records[0].Name"
+        },
+        {
+          "ID": "VARCUSTOMERCITY",
+          "value": "",
+          "assign": "data.records[0].City"
+        }
+      ],
+      "setter": "doGET(ID, 'http://www.w3schools.com/angular/customers.php')"
+    },
+    {
+      "ID": "Scope",
+      "varGroup": [
+        {
+          "ID": "VARUSERNAME",
+          "value": "",
+          "assign": "data"
+        }
+      ],
+      "setter": "setChildScope(ID, 'ngVarZero')"
+    },
+    {
+      "ID": "UserDefined",
+      "varGroup": [
+        {
+          "ID": "VARCONSTANT",
+          "value": "Virtusa",
+          "assign": ""
+        }
+      ],
+      "setter": ""
+    }
+  ]
+}

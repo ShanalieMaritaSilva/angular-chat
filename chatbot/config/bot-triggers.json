@@ -1,0 +1,6 @@
+{
+  "botTriggers":[
+    {"ID":"violations_closed", "action" : "sendDirectivetoBot('DIRDEVELOPERSHOWVIOLATIONS');console.log('xoxoxoxoxoxo');"},
+    {"ID":"runtime_violations_closed", "action" : "sendDirectivetoBot('DIRDEVFLOWDONE');console.log('yoyoyoyoyoyoyo');"}
+   ]
+}

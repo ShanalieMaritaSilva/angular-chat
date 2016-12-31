@@ -1,0 +1,9 @@
+{
+	"botUrl" : "http://localhost/Program-O/chatbot/conversation_start.php",
+	"aiUrl" : "http://cmterainsight/aibot1",
+	"activemqUrl" : "ws://cmterainsight:61614",
+	"activemqLogin" : "admin",
+	"activemqPw" : "password",
+	"activemqDestination" : "/topic/chat."	
+}
+

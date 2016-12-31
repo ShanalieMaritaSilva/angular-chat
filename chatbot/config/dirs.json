@@ -1,0 +1,20 @@
+{
+  "dirs": [
+    {
+      "ID": "DIROPENRUNTIMEVIOLATIONS",
+      "action": "$rootScope.$broadcast('appTrigger', 'open_runtime_violations');console.log('opening runtime violations');"
+    },
+    {
+      "ID": "DIROPENBEACON",
+      "action": "$rootScope.$broadcast('appTrigger', 'open_beacon');console.log('opening beacon');"
+    },
+    {
+      "ID": "DIRREGISTER",
+      "action": "askVar([{'ID':'VARUSERNAME', 'action':'DIRASKUSERNAME'},{'ID':'VARCITY', 'action':'DIRASKCITY'}], 'DIRREGISTRATIONSUCCESS');"
+    },
+    {
+      "ID": "DIRREGISTRATIONSUCCESS",
+      "action": "console.log('Registration success');sendDirectivetoBot('DIRSUCCESS');"
+    }
+  ]
+}

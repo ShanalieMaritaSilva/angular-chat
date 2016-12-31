@@ -1,0 +1,6 @@
+{
+  "appTriggers":[
+    {"ID":"triggerone", "action" : "console.log('apptrigger1');"},
+    {"ID":"triggertwo", "action" : "console.log('apptrigger2');"}
+   ]
+}
